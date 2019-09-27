@@ -29,7 +29,7 @@ html {
 }
 
 .nav a:hover {
-  color: #467366;
+  color: #145b1d;
   text-decoration: none;
   background-image: url("../images/leaf-icon.svg");
   background-size: 64px;
@@ -38,18 +38,12 @@ html {
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
-  background-size: auto;
-  background-repeat: no-repeat;
-  padding-top: 6em;
+  background: linear-gradient(to bottom, transparent, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg") no-repeat center bottom / cover;
 }
 
 .banner-content {
-  background-image: url("../images/two-leaves.svg");
-  background-repeat: no-repeat;
-  background-position: .75em .5em;
-  background-size: 5em auto;
-  padding-top: 6em;
+  background: url("../images/two-leaves.svg") no-repeat .75em 180px / 100px auto;
+  padding-top: 300px;
 }
 
 @media only screen and (min-width: 60em) {
